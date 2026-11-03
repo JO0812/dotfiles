@@ -101,25 +101,3 @@ palette and updates `~/.base16_theme`. To change the default, edit the
 
 The kitty theme follows the terminal palette. Desktop-specific themes (GTK,
 icons, cursors) are not included.
-
-## Editing
-
-1. Edit the file under `~/dotfiles/<package>/...`.
-2. Changes take effect immediately through the symlinks.
-3. If you add a new top-level path, add it to `LINKS` in `install.sh` and
-   re-run the installer.
-
-## Not tracked
-
-- `~/.gitconfig` and personal identity.
-- Desktop/WM configs (i3, rofi, picom, GTK, hardware-tuned scripts). These are
-  machine-specific and deliberately kept out of this repository.
-- tmux resurrect snapshots (`~/.tmux/resurrect`), which contain session state.
-- `kitty_search/`, cloned from upstream.
-- Neovim runtime data, caches, and plugin directories.
-
-## Scope
-
-This repository is intentionally limited to portable terminal tooling and
-theming. Machine-specific hardware, desktop environment, and application
-configuration are out of scope.
