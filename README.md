@@ -21,7 +21,7 @@ Works on Linux and macOS. Symlink-based, with no external dotfile manager.
 ## Install
 
 ```sh
-git clone <your-repo-url> ~/dotfiles
+git clone https://github.com/JO0812/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh --dry-run
 ./install.sh
