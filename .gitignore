@@ -1,0 +1,8 @@
+*.swp
+*.swo
+*.bak
+*.bak-*
+.DS_Store
+.local/state/
+tmux/.tmux/resurrect/
+kitty/.config/kitty/kitty_search/
